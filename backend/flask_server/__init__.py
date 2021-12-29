@@ -19,7 +19,7 @@ def create_app():
     app = Flask(__name__)
 
     # Enable CORS
-    CORS(app, origins=["http://localhost:3000"], resources={r"/api/*": {"origins": "*"}})
+    CORS(app)
     app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql:///checkbox_tasks'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     app.config['FRONTEND_ENDPOINT'] = 'http://localhost:3000'

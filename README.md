@@ -1,6 +1,8 @@
 ## Installation
 
-Clone the repository with git, change directory to the project root and run `./scripts/install.sh` (input sudo password when prompted).
+Installation scripts provided work with linux and are tested on ubuntu. Clone the repository with git, change directory to the project root and run 
+`chmod +x ./scripts/install.sh`
+`./scripts/install.sh`.
 
 ## Start
 
