@@ -1,0 +1,9 @@
+.task {
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+}
+
+.task-date {
+  text-align: right;
+}
